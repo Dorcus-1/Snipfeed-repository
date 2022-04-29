@@ -1,0 +1,258 @@
+.mid{
+    background-color:rgba(250, 235, 215, 0.274);
+    height:110vh;
+    width:100%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.firstbox{
+    background-color:white ;
+    height:35vh;
+    border-radius:30px;
+    transform: scale(0.9);
+}
+.add-block{
+    text-align:center;
+}
+.top-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.one-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem 1rem;
+    
+}
+.one-icon p{
+text-align: center;
+max-width: 90px;
+}
+.fa-hand-pointer{
+    background-color: rgba(69, 69, 219, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color: rgb(47, 47, 148);
+}
+.fa-envelope{
+    background-color: rgba(69, 219, 99, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(67, 189, 67, 0.745);
+}
+.fa-twitter{
+    background-color: rgba(69, 152, 219, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(12, 119, 190, 0.745);
+}
+.fa-share-nodes{
+    background-color: rgba(69, 152, 219, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(12, 119, 190, 0.745);
+}
+.fa-text-height{
+    background-color: rgba(234, 34, 34, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(251, 76, 76, 0.745); 
+}
+.fa-music{
+    background-color: rgba(35, 39, 245, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(33, 4, 252, 0.745); 
+}
+.fa-circle-play{
+    background-color: rgba(234, 34, 34, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(251, 76, 76, 0.745); 
+}
+.fa-bag-shopping{
+    background-color: rgba(69, 219, 99, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(67, 189, 67, 0.745);
+}
+.down-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.videocam{
+    background-color: rgba(234, 34, 34, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(251, 76, 76, 0.745); 
+}
+.campaign{
+    background-color: rgba(234, 171, 34, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(251, 193, 76, 0.745); 
+}
+.group{
+    background-color: rgba(69, 152, 219, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(12, 119, 190, 0.745);
+}
+.view_in_ar_new{
+    background-color: rgba(35, 39, 245, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(99, 7, 220, 0.745); 
+}
+.favorite{
+    background-color: rgba(234, 34, 34, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(251, 76, 76, 0.745); 
+}
+.dropdown{
+    background-color:white;
+    height: 5vh;
+    width: 7vw;
+    border-radius:20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.bio{
+    background-color: white;
+    height: 17vh;
+    width: 95%;
+    border-radius:20px;
+    margin-top:20px;
+}
+.under{
+    display:flex;
+    padding-top:20px;
+}
+.pic img{
+    height:3rem;
+    width:2.5rem;
+    border-radius:10px;
+
+}
+.pic {
+    margin-left:15px;
+}
+.desc{
+    padding-left: 2rem;
+}
+.desc p{
+    color:rgb(84, 82, 82);
+    font-size:12px;
+}
+.bio .page-header{
+    margin-bottom:20px;
+    background-color:rgb(232, 232, 232);
+    width: 6vw;
+    color:rgb(84, 84, 84);
+    border-radius:10px;
+    margin: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 450;
+}
+
+.bio hr{
+    width: 90%;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    
+}
+.page{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.page2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.page .icons{
+    padding-right: 2rem;
+}
+.pic .fa-share-nodes{
+    background-color: rgba(115, 115, 115, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(86, 88, 88, 0.745);
+}
+.icons span{
+    padding-right: 1.5rem;
+}
+.star{
+    color:red;
+}
+#page-header{
+    background-color: rgba(234, 34, 34, 0.182);
+    transform: scale(0.8);
+}
+.pic .favorite{
+    background-color: rgba(115, 115, 115, 0.182);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius:10px;
+    color:rgba(86, 88, 88, 0.745);
+}
+.icons .delete{
+    display: none;
+}
